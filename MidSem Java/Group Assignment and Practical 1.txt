@@ -1,0 +1,141 @@
+me
+Qtn: Write a java programme with atleast two
+classes i.e a main class and another. In the
+main class create objects of the other and
+invoke the methods.
+
+In the other class define the following 
+methods
+
+1.a method which, given an integer n, 
+classifies it as "perfect", "abundant", 
+or "deficient".
+
+A number is perfect if the sum of its 
+divisors (excluding the number itself) 
+is equal to the number, eg 6.
+
+A number is abundant if the sum of its 
+divisors (excluding the number itself) 
+is greater than the number, eg 12.
+
+A number is deficient if it is neither 
+perfect nor abundant.
+
+2. a method which, given an array of 
+characters and an integer max, returns 
+"TRUE" if the first max characters form 
+a palindrome (the same spelt backwards 
+and forwards, eg, civic), and "FALSE"
+otherwise.
+
+Note:
+
+(i) clearly show the instance variables 
+in class two
+(ii) clearly show the constructors in 
+class two
+(iii) clearly show the methods in class two
+(iv) do not hard code the inputs
+
+---------------------------------
+
+Week1 Assignment
+---------------------------------
+Write a java program with main and other
+two classes. The following should be 
+implemented,each one in its own class. 
+
+1. a method that takes an array of integers,
+it determines whether an array is vanilla
+or not. If its a vanilla array, it returns
+1 otherwise 0.
+
+note: an array is vanilla if all the digits
+of its elements are the same e.g
+{1,11,1111,111,1} is a vanilla array
+{2222,22,2222222,2} is a vanilla array
+{101,11,1111,1} is not a vanilla array
+
+Use a single dimentional array
+You can hard code the elements of the array
+
+2. a method that takes an integer n, it
+determines whether n is isolated. If its
+isolated it returns 1 otherwise 0.
+
+note: a number n is isolated if non of the 
+digits of its square are found it its cube
+
+e.g 
+
+163 is isolated because
+
+(163*163=26569) and (163*163*163=4330747)
+
+while 162 is not isolated because
+
+(162*162=26244) and (162*162*162=4251528)
+
+-------------------------
+Week2 Group Assignment
+-------------------------
+Qtn: Using Arrays and Classes
+implement the following
+-create classes
+-include instance variables
+-create inheritence
+-create objects
+-execute methods
+
+There are 5 students in a class
+capture the following
+-SurNames, FirstNames, Ages
+Sex.
+
+-Capture their marks of 
+three subjects
+
+-Calcuate the average mark
+of each student and display
+it.
+
+-Determine a student who
+fails or passes. i.e 
+if average mark.
+
+note: all marks are integers
+>=0 and <=100 (i.e, the 
+program should refuse
+wrong data enty, hint
+capture the exceptions)
+ < 50, the student fails
+
+--------------------------
+
+Week3 Assignment
+---------------------------
+refer to the diagram in
+the .doc file
+
+create an abstract parent
+called person with an 
+abstract method called
+backgroundInformation()
+
+implement the abstract
+method within child classes
+i.e, Employee and student
+
+Note:
+
+Make the Employee parent
+of Manager and ship all
+the code of week2 assignment
+under student class.
+
+-out put some employees and 
+students information
+
+classes parents of Manager and 
+ hello
